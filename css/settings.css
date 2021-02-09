@@ -1,0 +1,86 @@
+#settingCSS {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+#settingCSS h2 {
+  margin: 5px inherit;
+  text-align: center;
+}
+#settingCSS h3 {
+  font-size: 1.5rem;
+  text-align: left;
+}
+#settingCSS p {
+  font-size: 1rem;
+}
+#settingCSS form {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+}
+#settingCSS form label {
+  font-weight: 500;
+  font-size: 1rem;
+}
+#settingCSS form input:not(:last-of-type),
+#settingCSS form select {
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+#settingCSS form input:not(:last-of-type),
+#settingCSS form select {
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  width: 95%;
+}
+#settingCSS form select {
+  width: 100%;
+}
+#settingCSS form #pSaveChanges,
+#settingCSS form #pChangePassword {
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  padding: 0.7rem;
+  margin-top: 0.5rem;
+  background-color: #1865f2;
+  border-radius: 5px;
+}
+#settingCSS form #pSaveChanges:hover,
+#settingCSS form #pChangePassword:hover {
+  cursor: pointer;
+  box-shadow: 0 0 0 1px #ffffff, 0 0 0 3px #1865f2;
+}
+#settingCSS #pDeleteAccount {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  padding: 0.7rem;
+  margin-top: 0.5rem;
+  background-color: #d92916;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+#settingCSS #pDeleteAccount:hover {
+  box-shadow: 0 0 0 1px #ffffff, 0 0 0 3px #d92916;
+}
+#settingCSS .deleteAccount {
+  margin-bottom: 3rem;
+}
+#settingCSS .basics,
+#settingCSS .password,
+#settingCSS .role {
+  border-bottom: 1px solid gray;
+}
+#settingCSS .successfulEdit {
+  color: limegreen;
+}
+#settingCSS .failedEdit {
+  color: red;
+}
+#settingCSS #pCurrentPassword,
+#settingCSS #pNewPassword,
+#settingCSS #pNewPassword2 {
+  box-shadow: none;
+}
